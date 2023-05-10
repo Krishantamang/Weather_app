@@ -1,0 +1,120 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap);
+
+* {
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: aliceblue;
+
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.jpg);
+    background-position: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+#info {
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.bottom {
+    height: 40vh;
+    width: 99%;
+    text-align: center;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    position: fixed;
+    bottom: 30px;
+    padding-left: 3px;
+    font-size: 20px;
+}
+
+.heading {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+}
+
+.input {
+    height: 40px;
+    width: 400px;
+    font-size: 26px;
+    border-radius: 5px;
+    color: gray;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 4vw;
+    color: white;
+    background-color: gray;
+    border-radius: 3vh;
+    height: 40px;
+    width: 17vw;
+    font-size: 23px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    text-align: left;
+    padding-left: 15px;
+}
+
+.statushead{
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+.status {
+    font-size: 20px;
+}
+
+.temp{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.left {
+    text-align: left;
+    padding-left: 5vh;
+    font-size: 5vh;
+}
+
+.middle {
+    padding-top: 20vh;
+}
+
+.right {
+    text-align: left;
+    padding-right: 2vw;
+    font-size: 4vh;
+    justify-items: space-between;
+    margin: 0 7vh;
+}
+
+.top1,
+.top2,
+.top3,
+.top4 {
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
